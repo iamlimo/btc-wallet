@@ -1,0 +1,232 @@
+.account-sum{
+    background-color: #E9EDF2;
+    height: 400px;
+    min-height: 395px;
+    padding-top: 20px;
+}
+
+#paddin{
+    padding: 50px 0 150px 100px;
+}
+
+#acct-sum-text{
+    margin-bottom: 42px;
+    font-size: 35px;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-bottom: 24px;
+    color: rgb(23, 62, 100);
+}
+
+#value{
+        width: 100%;
+    font-size: 13px;
+    letter-spacing: 1.4px;
+    margin-bottom: 16px;
+}
+
+#price{
+        font-size: 30px;
+    font-weight: 500;
+    font-family: Roboto;
+    color: rgb(38, 77, 121);
+}
+
+.up{
+    /* padding: 0px 60px !important; */
+    z-index: 5;
+    position: sticky;
+    left: 0px;
+    right: 0px;
+    top: 0rem;
+    position: sticky;
+    background-color: rgb(233, 237, 242);
+    height: 80px;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 6px 0px;
+}
+
+ ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: center;
+    list-style: none;
+    /* -webkit-box-align: center;
+    align-items: center; */
+    padding: 0px 20px;
+    margin: 0px;
+    font-size: 16px;
+    height: 80px;
+   
+}
+
+
+li{
+    color: rgb(0, 46, 167);
+    display: list-item;
+    margin-right: 5em;
+    padding: 20px 15px;
+    cursor: pointer;
+     /* 
+     
+     color: #0C6CF3;
+     font-size: 30px; */
+     /* width: auto;
+    order: 1; */
+    /* display: block; */
+    /* display: inline;
+    background-color: transparent;
+    color: rgb(0, 46, 167);
+    
+    font-size: 16px; */
+}
+
+li:hover{
+    border-bottom: 1px solid royalblue;
+}
+
+button{
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    line-height: 1.25;
+    cursor: pointer;
+    background-color: rgb(76, 175, 80);  
+}
+
+li > .d-icon{
+    /* color: #cecece; */
+        fill: rgb(32, 56, 85) !important;
+        padding-right: 10px;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.widget{
+    display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin-right:50px;
+}
+
+ .btc-line{
+      display: flex;
+  flex-wrap: wrap;
+ }
+
+ .btc-line > div{
+     margin-right: 20px;
+ }
+
+.text-headline{
+    font-size: 30px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: rgb(23, 62, 100);
+}
+
+.t-2{
+    font-family: Roboto, Verdana;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: rgb(23, 62, 100);
+    margin-bottom: 34px;
+}
+
+.column-one, .column-two{
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 6px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    border: 1px solid #cecece;
+    font-family: Roboto, Verdana;
+    font-weight: 300;
+    overflow: visible;
+    box-sizing: border-box;
+    padding: 71px 60px;
+    border-width: 5px 1px 1px;
+    border-style: solid;
+    border-color: rgb(0, 46, 167) rgb(226, 234, 242) rgb(226, 234, 242);
+    background-color: rgb(255, 255, 255);
+    margin-right: 25px;
+}
+
+.coin-head{
+    font-size: 1.5em;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.bit-percent{
+    font-size: 1.3em;
+}
+
+.lni-arrow-right::before {
+    width: 12px;
+    height: 19px;
+    color: rgb(0, 46, 167);
+    padding-right: 5px;
+    font-size: 2.5em;
+    
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+}
+
+#content > div{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 20em;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+#close{
+    position: relative;
+    left: 6em;
+    padding: 10px 20px;
+    color: #333;
+    z-index: 9999;
+    font-size: 1em;
+}
+
+/* for mobile screen */
+@media screen and (max-width: 480px) {
+ .widget{
+    /* display: flex; */
+    flex-direction: column;
+
+ }
+}
+
+
+
