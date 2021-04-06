@@ -14,9 +14,35 @@
     <div id="overlay">
         <div id="content">
             
-           <div>
+           <div id="title">
             <div id="close">X</div>   
-            Deposit</div>
+           <span id="deposit-btc">Bitcoin Deposit</span>
+
+           <div class="currency-input">
+            <div id="curr">CURRENCY</div>
+             <select name="" id="select-btc">
+                <div id="curr">CURRENCY</div>
+                 <option value="btc" >Bitcoin BTC</option>
+             </select>
+             <br>
+             <div id="warning">
+                <svg data-testid="test-svg" width="20" height="15" viewBox="0 0 17 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#FF9135" d="M8.33333333 0l8.33333337 15H0z"></path><path d="M8.33333333 11.6666667V12.5m0-6.66666667V10" stroke="#F0F0F0"></path></svg> 
+                <span id="warn">warning:</span> Depositing any other crypto asset besides Bitcoin to this address may result in the total loss of your funds. BlockFi is not responsible for any funds lost due to the deposit of a different asset.</div>
+                <div>BLOCKFI BITCOIN WALLET ADDRESS
+                    <br>
+                    <img src="/assets/img/qr-code.svg" alt="" width="100px">
+                </div>
+                <br>
+                <div>
+                    <label for="">WALLET ADDRESS:</label>
+                    <input  readonly type="text" name="" id="wallet-input" value="233333r3r3r3">
+                    <span class="copy-files" id="copied"> <i class="d-icon d-copy-file"></i></span>
+                </div>
+        </div>
+        
+        </div>
+
+           
            
         </div>
     </div>
@@ -47,6 +73,7 @@
             <div class="column-one">
                 <div id="conversion mr-2">
                       <div class="text-headline">Make a deposit and start earning interest.</div>
+                      <br>
                       <div id="convert">
                          <div class="coly">
                              <div class="btc-line">
@@ -56,18 +83,61 @@
                                      <span class="bit-percent">Earn 6.0% *</span>
                                  </div>
                                  <div class="b-line"><i class="lni lni-arrow-right"></i></div>
+                                 <div class="img"><img src="/assets/eth.png" alt="" width="30"></div>
+                                 <div class="bit-info">
+                                    <span class="coin-head">ETH</span><br>
+                                    <span class="bit-percent">Earn 5.25% *</span>
+                                </div>
+
                              </div> <!-- end of btc-line -->
+                             
                          </div>
-                         <div class="coly"></div>
+                         <br>
+                         <div class="coly">
+                            <div class="btc-line">
+                                <div class="img"><img src="/assets/L.png" alt="" width="30"></div>
+                                <div class="bit-info">
+                                    <span class="coin-head">LTC</span><br>
+                                    <span class="bit-percent">Earn 6.5% *</span>
+                                </div>
+                                <div class="b-line"><i class="lni lni-arrow-right"></i></div>
+                                <div class="img"><img src="/assets/link.svg" alt="" width="30"></div>
+                                <div class="bit-info">
+                                   <span class="coin-head">LINK</span><br>
+                                   <span class="bit-percent">Earn 5.5% *</span>
+                               </div>
+
+                            </div>
+                         </div>
                      </div>
                 </div>
                  
             </div>
             <div class="column-two">
                 <div class="text-headline t-2">Get USD without selling your crypto</div>
+
+                <div class="coly">
+                    <div class="btc-line">
+                        <div class="img"><img src="/assets/L.png" alt="" width="30"></div>
+                        <div class="bit-info">
+                            <span class="coin-head">LTC</span><br>
+                            <span class="bit-percent">Earn 6.0% *</span>
+                        </div>
+                        <div class="b-line"><i class="lni lni-arrow-right"></i></div>
+                        <div class="img"><img src="/assets/link.svg" alt="" width="30"></div>
+                        <div class="bit-info">
+                           <span class="coin-head">LINK</span><br>
+                           <span class="bit-percent">Earn 5.25% *</span>
+                       </div>
+
+                    </div>
+                 </div>
             </div>
         </div>
         </div> <!-- end of top widget -->
+
+        <br>
+        <br>
         <div class="mid-widget">
             <div class="widget">
             <div class="column-one">
