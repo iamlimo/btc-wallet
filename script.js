@@ -23,3 +23,6 @@ copyIcon.addEventListener('click', function(){
 }
 
 copyValue()
+
+
+

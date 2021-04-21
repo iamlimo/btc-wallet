@@ -1,0 +1,147 @@
+body{
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+#onb-1{
+    color: #fff;
+    text-decoration: none;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .flex-container > div {
+    background-color: #fff;
+    width: 600px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 50px;
+    margin-top: 40px;
+  }
+
+
+
+  .inner{
+      display: inline-block;
+      background-color: #0A7DD9;
+      border: 1px #fff solid;
+      border-radius: 5px;
+      width: 150px;
+      padding: 10px;
+      color: #fff;
+  }
+
+  .text-icon{
+      font-size: 14px;
+  }
+
+  .d-icon{
+      position: relative;
+      top: 10px
+  }
+
+
+ header, .headies{
+      height: 200px !important;
+  }
+
+  .small-text{
+    color: #333;
+    font-size: 12px;
+  }
+
+  #wallet-input{
+    padding: 5px;
+    width: 200px;
+    font-size: 14px;
+    width: 25em;
+    border:none;border-bottom:1px solid #ccc;
+    font-size: 16px;
+}
+
+label{
+    font-size: 14px !important;
+    position: relative;
+    left: 70px;
+    color: #0A7DD9;
+    bottom: 30px;
+}
+
+input:focus {
+    outline: none;
+    position: relative;
+    bottom: 20px;
+}
+
+a#bb{
+    width: 70%;
+    background-color: #0032EB;
+    color: #fff;
+    padding: 7px 35px;
+    border-radius: 5px;
+    text-decoration: none;margin-top: 20px;
+}
+
+p{
+    font-size: 14px;
+}
+
+.ll{
+    margin-top: 20px;
+}
+#employ{
+    color: #0A7DD9;
+    bottom: 30px;
+    left: 0;
+}
+ul{
+    margin: 0 auto;
+    width: 240px;
+}
+
+li.funds{
+    text-decoration: none;
+    font-size: 14px;
+    border:2px #0A7DD9 solid;
+    margin-bottom: 13px;
+    border-radius: 3px;
+    list-style: none;
+}
+
+
+.gov{
+    width: 350px !important;
+    padding: 20px !important;
+}
+
+#gov-text > p{
+    font-size: 18px;
+    
+}
+
+select{
+    width: 150px;
+    font-size: 16px;
+}
+
+option{
+    font-size: 14px;
+}
+
+#up{
+    position: relative;
+    top: 10px;
+    left: 1;
+    /* border: 1px solid; */
+   display: block;
+   
+}
+
+#up:hover{
+    cursor: pointer;
+}
