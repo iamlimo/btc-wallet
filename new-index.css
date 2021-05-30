@@ -1,0 +1,92 @@
+.jumbo-first{
+    /* background-color: #002EA7 ; */
+    background: url('./assets/img/jumbo.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    padding: 0 5em;
+}
+
+.span-werey{
+    font-size: 12px;
+    color: #5A32EB;
+    font-weight: 600;
+}
+
+.texty{
+    margin-top: 5em;
+}
+
+section{
+    /* padding: 2 2em 2 2em; */
+    margin: 7em 0 5em 0;
+}
+
+.but-blue{
+    background-color: #5A32EB;
+    width: 150px;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+a.butty{
+    color: #fff;
+}
+
+#giffy{
+    padding: 5em 0 5em 0;
+}
+
+
+#inner-content-first{
+    position: absolute;
+    top: 17em;
+    width: 600px;
+}
+#inner-content-h1{
+    color: #fff !important;
+}
+
+#inner-content > p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.inner-p{
+    color: #fff;
+}
+
+.one-card{
+    background-color: #5A32EB;
+    padding: 5em 0;
+    color: #fff !important;
+}
+
+.service{
+    color: #333;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.why-crypto{
+    font-size: 16px ;
+}
+
+
+#footy{
+    background-color: #00144A;
+    padding-top: 2em;
+}
+
+span.footy-c{
+    color: #fff;
+}
+
+
+#c{
+    font-size: 12px;
+}

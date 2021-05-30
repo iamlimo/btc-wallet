@@ -3,22 +3,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BlockFi- Sign up</title>
     	<link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-1.min.css">
         <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
 		<link rel="stylesheet" href="assets/css/animate.css">
-		<link rel="stylesheet" href="assets/css/main.css">
-</head>
+
+
+    <style>
+      body{
+        background-color: #5A32EB;
+
+      }
+      .signup{
+        /* width: 400px; */
+        padding: 3em !important;
+      }
+
+      .logo-img{
+        position: relative;
+      
+      }
+
+      .btn-primary{
+        width: 100%;
+      }
+
+      #s-but{
+        float: right;
+      }
+      #s-but > a{
+        background-color: #f3f3f3;
+        padding: 5px 15px;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #333;
+      }
+
+    </style>
+
+  </head>
 <body>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center mt-4">
  
-        <div class="signup">
+        <div class="signup shadow p-3 mb-5 bg-body rounded">
+          <a href="/index.html" class="logo-img"><img class="rounded mx-auto d-block" src="/assets/img/blue-logo.png" width="150px" alt=""></a>
             <form>
                      <div>
-            <a href="" class="brand-logo">LOGO</a>
+           
+
         <br>
         <div id="id">
-            Already have an accouunt
+            Already have an account? <span><a href="/signin.html">Log in</a></span>
         </div>
       </div>
   <div class="mb-3">
@@ -34,10 +69,10 @@
     <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
-  <div class="mb-3 form-check">
+  <!-- <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
+  </div> -->
   
   <button type="submit" class="btn btn-primary">Create an account</button>
 </form>

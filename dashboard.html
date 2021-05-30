@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-1.min.css">
     <link rel="stylesheet" href="/style.css">
     <title>Document</title>
+
+    <style>
+        #tool-news{
+            background-color: #5A32EB;
+            color: #fff;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        #tool-news > p{
+            color:#fff;
+        }
+    </style>
 </head>
 <body>
     <div id="overlay">
@@ -46,6 +59,10 @@
            
         </div>
     </div>
+
+    <div class="container-fluid" id="tool-news">
+        <p class="text-center">Between now and June 30th, 2021 23:59:59 UTC, deposit crypto and you could receive up to $2,000 or more depending on the deposit amount</p>
+    </div>
    <div class="up">
         <header class="">
         <ul>
@@ -63,9 +80,18 @@
    </div>
     <section class="container-fluid account-sum">
         <div class="container" id="paddin">
-            <h2 id="acct-sum-text">Account Summary</h2>
-            <p id="value">TOTAL DOLLAR VALUE OF CRYPTO <i class="d-icon d-urgent is-small"></i></p>
-            <p id="price">$0.00</p>
+           <div class="row">
+               <div class="col-md-6">
+                <h2 id="acct-sum-text">Account Summary</h2>
+                <p id="value">TOTAL DOLLAR VALUE OF CRYPTO <i class="d-icon d-urgent is-small"></i></p>
+                <p id="price">$0.00</p>
+               </div>
+               <div class="col-md-6 mt-4">
+                   <br>
+                <p id="value">TOTAL INTEREST <i class="d-icon d-urgent is-small"></i></p>
+                <p id="price">$0.00</p>
+               </div>
+           </div>
         </div>
 
         <div class="top-widget">
