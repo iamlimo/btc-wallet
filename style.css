@@ -58,7 +58,7 @@
     padding: 0px 20px;
     margin: 0px;
     font-size: 16px;
-    height: 80px;
+    /* height: 80px; */
    
 }
 
@@ -220,14 +220,7 @@ li > .d-icon{
     font-size: 16px
 }
 
-/* for mobile screen */
-@media screen and (max-width: 480px) {
- .widget{
-    /* display: flex; */
-    flex-direction: column;
 
- }
-}
 
 #select-btc{
     width: 25em;
@@ -280,3 +273,36 @@ span#warn{
 .currency-input{
     margin-top: 5em;
 }
+
+.lni{display: none;}
+
+.header-menu{
+
+}
+
+
+/* for mobile screen */
+@media screen and (max-width: 480px) {
+    .widget{
+       /* display: flex; */
+       flex-direction: column;
+   
+    }
+   
+    .lni{
+        /* position: relative; */
+        display: inline-block;
+        /* top: 20em; */
+        float: right;
+        color: black;
+        font-size: 30px;
+        margin-top: 20px;
+         margin-right: 20px;
+    }
+   
+    .menu-header{
+        display: none;
+        /* height: 100%; */
+        background-color: #cecece;
+    }
+   }

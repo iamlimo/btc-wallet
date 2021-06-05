@@ -21,9 +21,47 @@
         #tool-news > p{
             color:#fff;
         }
+        .modo {
+  display: none; 
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modo-content {
+  /* background-color: #fefefe; */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.cen{
+    margin: 0 auto;
+    width: 600px;
+    background-color: #fff;
+    padding: 12em;
+}
+
+.closey{
+    position: relative;
+    left: 25em;
+    font-size: 30px;
+    top: 2em;
+    cursor: pointer;
+}
+
     </style>
 </head>
-<body>
+<body onload="loadPopUp()">
     <div id="overlay">
         <div id="content">
             
@@ -64,15 +102,18 @@
         <p class="text-center">Between now and June 30th, 2021 23:59:59 UTC, deposit crypto and you could receive up to $2,000 or more depending on the deposit amount</p>
     </div>
    <div class="up">
-        <header class="">
-        <ul>
+        <header class="header-menu">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="lni lni-menu"></i>
+              </a>
+        <ul class="menu-header" id="myLinks">
             
             <li id="deposit"><i class="d-icon d-add is-small"></i> Deposit </li>
             <li><i class="d-icon d-upload is-small"></i> Withdraw</li>
             <li><i class="d-icon d-swap-horizontal is-small"></i> Trade</li>
             <li><i class="d-icon d-cash-payment is-small"></i> Borrow</li>
             <li> 
-                <button>Refer a Friend</button>
+                <button><a href="/referral.html">Refer a Friend</a></button>
             </li>
             <li class=""><i class="d-icon d-user-profile-circle is-medium"></i></li>
         </ul>
@@ -187,18 +228,56 @@
             
         </div>
         </div>
-        <div class="low-widget">
-            <div class="widget">
-            <div class="column-one">
-                <div id="conversion mr-2">
-                     <h4>Transactions.</h4>
-                </div>
-            </div>
-            
-        </div>
-        </div>
+        
     </section>
 
+    <!-- The Modal -->
+<div id="myModal" class="modo">
+
+    <!-- Modal content -->
+    <div class="modo-content">
+      <span class="closey" id="close-up">&times;</span>
+     <div class="cen">
+        <p class="text-center">
+            Between now and June 30th, 2021 23:59:59 UTC, deposit crypto and you could receive up to $2,000 or more depending on the deposit amount.
+         </p>
+         <p>
+            <p> - Deposit up to $500, and get $50 BTC or more </p>
+            <p>- Deposit up to $1000, and get $100 BTC or more</p>
+            <p> - Deposit up to $1500, and get $150 BTC or more </p>
+            <p>And just continue till like $3000k dolls</p> 
+         
+     </div>
+    </div>
+  
+  </div>
+  
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function loadPopUp(){
+    var modal = document.getElementById("myModal");
+    var closeIt = document.getElementById('close-up')
+    modal.style.display = "block";
+
+    closeIt.onclick = function() {
+  modal.style.display = "none";
+}
+
+modal.onclick = function() {
+  modal.style.display = "none";
+}
+}
+
+
+    </script>
     <script src="script.js"></script>
 </body>
 </html>

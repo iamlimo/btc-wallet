@@ -45,7 +45,7 @@ a.butty{
 #inner-content-first{
     position: absolute;
     top: 17em;
-    width: 600px;
+    /* width: 600px; */
 }
 #inner-content-h1{
     color: #fff !important;
@@ -90,3 +90,10 @@ span.footy-c{
 #c{
     font-size: 12px;
 }
+
+
+@media screen and (min-width: 480px) {
+    #inner-content-first {
+     width: 400px;
+    }
+  }
